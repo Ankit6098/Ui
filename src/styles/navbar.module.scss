@@ -1,0 +1,34 @@
+@media screen and (max-width: 800px) {
+    .navbarControls {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navbarContainer {
+        padding: 0 5px;
+        .navbarLeftSection {
+            .navbarPriceSection p {
+                font-size: 0.8rem;
+            }
+            .navbarPriceSection:first-child {
+                font-size: 1.1rem;
+            }
+        }
+        .navbarRightSection {
+            gap: 0.1rem;
+            .timerSection {
+                .navbarPriceSection {
+                    padding: 8px 12px;
+                    right: 3%;
+                }
+                .navbarPriceSection p {
+                    font-size: 0.9rem;
+                }
+                svg {
+                    display: none;
+                }
+            }
+        }
+    }
+}
