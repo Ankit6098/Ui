@@ -3,7 +3,7 @@ import styles from '../styles/card.module.scss'
 
 export default function Card() {
   return (
-    <div className={` ${styles.cardContainer} w-[400px] h-[510px] bg-white rounded-3xl flex flex-col items-center justify-center`}>
+    <div className={` ${styles.cardContainer} w-[400px] h-[510px] bg-white rounded-3xl flex flex-col items-center justify-center border-2 border-indigo-400`}>
       <div className={` ${styles.cardUpperSection} flex items-center justify-between w-11/12 relative top-12`}>
         <div className="cardStatus flex items-center gap-1">
           <svg

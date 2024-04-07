@@ -1029,7 +1029,7 @@ export default function Navbar() {
           <div
             className={`${styles.navbarPriceSection} flex gap-2 items-center bg-white px-4 py-2 rounded-3xl pr-10 relative right-[-30px] z-[-1] drop-shadow-sm`}
           >
-            <p className="text-xl font-bold">00:38</p>
+            <p className="text-xl font-bold text-indigo-800">00:38</p>
             <p className="text-sm font-semibold">5m</p>
           </div>
           <svg
