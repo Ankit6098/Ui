@@ -88,9 +88,9 @@ export default function Card() {
             />
           </svg>
 
-          <div className="flex justify-center flex-col items-center absolute top-14 left-[37%]">
-            <p>2.15x Payout</p>
-            <p className="text-white text-lg font-extrabold">DOWN</p>
+          <div className="flex justify-center flex-col items-center absolute top-14 left-[38%] text-white">
+            <p className="text-sm font-semibold">2.15x Payout</p>
+            <p className="text-lg font-extrabold">DOWN</p>
           </div>
         </div>
       </div>
